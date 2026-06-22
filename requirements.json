@@ -1,0 +1,38 @@
+{
+  "project_name": "منصة إدارة أحداث وفعاليات مع دفع وتأكيد الحضور",
+  "project_type": "event_management",
+  "color_palette": "emerald-600 and teal-500",
+  "modules": [
+    "Events",
+    "Attendees",
+    "Payments"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_events",
+    "create_event",
+    "view_event",
+    "manage_attendees",
+    "process_payments"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login",
+      "register"
+    ],
+    "user": [
+      "list_events",
+      "view_event",
+      "manage_attendees"
+    ],
+    "admin": [
+      "list_events",
+      "view_event",
+      "manage_attendees",
+      "process_payments"
+    ]
+  }
+}
