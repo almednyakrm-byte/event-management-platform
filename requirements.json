@@ -1,0 +1,42 @@
+{
+  "project_name": "منصة إدارة أحداث ومؤتمرات مع جداول وتذاكر ومراسلات",
+  "project_type": "event_management_system",
+  "color_palette": "emerald-600 and teal-500",
+  "modules": [
+    "Events",
+    "Schedules",
+    "Tickets",
+    "Communications"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_events",
+    "create_event",
+    "view_event",
+    "manage_schedules",
+    "issue_tickets",
+    "send_messages"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login"
+    ],
+    "user": [
+      "list_events",
+      "create_event",
+      "view_event",
+      "issue_tickets"
+    ],
+    "admin": [
+      "list_events",
+      "create_event",
+      "view_event",
+      "manage_schedules",
+      "issue_tickets",
+      "send_messages"
+    ]
+  }
+}
